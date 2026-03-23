@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback-Telly thabby sweets factory</title>
+
+    <link rel="stylesheet" href="../css/feedback.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Telly thabby sweets factory</h1>
+
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../pages/aboutus.html">About Us</a>
+            <a href="../pages/product.html">Products</a>
+            <a href="../pages/contactus.html">Contact us</a>
+            <a href="../pages/feedback.html">Feedback</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Customer Feedback</h2>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="favourite-sweet">Favourite Sweet:</label>
+            <input type="text" id="favourite-sweet" name="favourite-sweet">
+            <select name="sweet" required>
+                <option value="">Select a sweet</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="caramel">Candies</option>
+                <option value="marshmallow">cake</option>
+            </select>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Telly Thabby Sweets Factory. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
