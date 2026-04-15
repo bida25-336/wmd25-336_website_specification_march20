@@ -1,0 +1,120 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/736x/cd/a4/a8/cda4a89e5b394720ee32afeb9cde1928.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: avenir, rounded, sans-serif;
+    font-weight: thick;
+    font-size: 1.25rem;
+}
+
+h1 {
+    color: none;
+    text-shadow: 2px 2px 4px rgb(245, 3, 3);
+    text-wrap-style: balance;
+    font-family: cursive;
+}
+
+
+header {
+    background-color: rgba(255, 255, 255, 0.82);
+    padding: 20px;
+    text-align: center;
+    text-emphasis-color: rgba(219, 19, 219, 0.872);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #ff6600;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a :hover {
+    color: #ff6600;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the products page */
+.product {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Style for the image page */
+img {
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style for the feedback form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #0f21e4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 2px;
+    width: 100%;
+    height: 10% border-top: 1px solid #ddd;
+}
+
+img {
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+    /* adjust size */
+    height: auto;
+}
